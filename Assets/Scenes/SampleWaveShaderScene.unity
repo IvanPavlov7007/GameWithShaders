@@ -553,10 +553,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveShader: {fileID: 4800000, guid: f35aa7f048bc32c42be46b6b95393291, type: 3}
-  maxWaveForce: 10
-  waveSpeed: 300
+  maxWaveForce: 1
+  waveSpeed: 100
   waveThickDuration: 0.2
-  distortionDist: 5
+  distortionDist: 2
   curMaterial: {fileID: 0}
 --- !u!1001 &535712868
 PrefabInstance:
@@ -849,12 +849,12 @@ PrefabInstance:
     - target: {fileID: 878086238131220031, guid: 1f5ec4592fbd61247a4b55a6d588d4a5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9562459
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 878086238131220031, guid: 1f5ec4592fbd61247a4b55a6d588d4a5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.57452
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 878086238131220031, guid: 1f5ec4592fbd61247a4b55a6d588d4a5,
         type: 3}

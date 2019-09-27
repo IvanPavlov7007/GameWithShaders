@@ -57,7 +57,7 @@ public class WaveCreator : MonoBehaviour
         pixelSize = (cam.ScreenToWorldPoint(Vector3.right) - cam.ScreenToWorldPoint(Vector3.zero)).magnitude;
     }
 
-    const float objectsRadius = 0.5f;
+    const float objectsRadius = 1.2f;
     const float cosPeriod = Mathf.PI / (2f * objectsRadius); 
 
     private void FixedUpdate()
